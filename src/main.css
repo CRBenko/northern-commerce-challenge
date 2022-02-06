@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: #ffffff;
+  background: #282828;
+  background-size: cover;
+}
+
+.container {
+  position: fixed;
+  width: 55vw;
+  max-width: 1075px;
+  margin: 1rem;
+  padding: 2rem;
+  /* display: none; */
+}
+
+.form--hidden {
+  display: none;
+}
+
+/* .form__success--hidden {
+  display: none;
+} */
+
+.form__title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 65px;
+  text-align: left;
+}
+
+.red__divider {
+  width: 30%;
+  height: 10px;
+  background-color: #d02035;
+  margin-bottom: 50px;
+}
+
+.form__caption {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+
+.email__form {
+  display: inline-block;
+  width: 100%;
+}
+
+.form__input {
+  position: relative;
+  width: 100%;
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  color: #797979;
+  padding: 20px;
+  margin-bottom: 50px;
+
+  /* border-color: #d02035; */
+}
+
+.dropdown {
+  position: relative;
+  width: 100%;
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  color: #797979;
+  padding: 20px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.contact__form {
+  display: flex;
+  min-width: 30vw;
+}
+
+.form__input-group1 {
+  margin-right: 50px;
+  flex-grow: 1;
+}
+
+.form__input-group2 {
+  min-width: 50%;
+  flex-grow: 1;
+  margin-top: auto;
+}
+
+.form__message,
+.form__input-error-message {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.form__error--hidden {
+  display: none;
+}
+
+.form__button {
+  max-width: 100%;
+  width: 55vw;
+  border-radius: 4px;
+  background-color: #d02035;
+  color: #ffffff;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 20px;
+  border: 0;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.form__button:hover {
+  background-color: #b41b2d;
+}
+
+.form__button:active {
+  transform: scale(0.98);
+}
+
+.arrow {
+  transform: scale(0.6);
+}
+
+.sub__hidden {
+  display: none;
+}
+
+.form__subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  text-align: left;
+  margin-top: 50px;
+}

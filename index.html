@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <title>Internship Signup Form</title>
+  <link rel="shortcut icon" href="/assets/favicon.ico" />
+  <link rel="stylesheet" href="./src/main.css" />
+  <link rel="stylesheet" href="./src/queries.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <div class="container">
+    <form action="" class="form" id="signup">
+      <h1 class="form__title">INTERNSHIP SIGNUP FORM</h1>
+      <div class="red__divider"></div>
+      <p class="form__caption">
+        Prepare for your career with a Project Management, Web-Development,
+        Graphic Design, or Digital Marketing Internship at Northern.
+      </p>
+      <div class="contact__form">
+        <div class="email__form">
+          <div class="form__message form__error--hidden">
+            Please enter a valid email address
+          </div>
+          <div class="form__input-group1">
+            <input
+              id="email"
+              type="text"
+              class="form__input"
+              placeholder="Your Email Address*"
+            />
+          </div>
+        </div>
+        <div class="form__input-group2">
+          <label for="your-interests"></label>
+          <select class="dropdown" name="your-interests" id="interests">
+            <option disabled selected>Your Interests</option>
+            <option value="project-management">Project Management</option>
+            <option value="web-development">Web Development</option>
+            <option value="graphic-design">Graphic Design</option>
+            <option value="digital-marketing-int">
+              Digital Marketing Internship
+            </option>
+          </select>
+        </div>
+      </div>
+      <button class="form__button" type="submit" id="submit">
+        Sign Up Now
+        <ion-icon name="caret-forward-outline" class="arrow"></ion-icon>
+      </button>
+    </form>
+    <form action="" class="form__success form--hidden" id="submitted">
+      <h1 class="form__title">INTERNSHIP SIGNUP FORM</h1>
+      <div class="red__divider"></div>
+      <p class="form__subtitle">Thanks for your interest!</p>
+      <p class="form__caption">
+        We will review your application and contact you for additional
+        information should your background and experience meet the requirements
+        of one of our openings.
+      </p>
+    </form>
+  </div>
+  <script src="./src/main.js"></script>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+</body>
